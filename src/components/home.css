@@ -1,0 +1,10 @@
+.background h1{
+    text-align: center;
+}
+
+.simulator{
+    display: flex;
+}
+.painel-info{
+    display: flex;
+}
