@@ -1,5 +1,5 @@
 .background h1{
-    text-align: center;
+    
 }
 
 .simulator{
@@ -8,3 +8,149 @@
 .painel-info{
     display: flex;
 }
+input{
+    border: none;
+    font-size: 42px;
+    font-weight: 500;
+    width: 55%;
+}
+
+
+input:focus{
+    
+    outline: none;
+}
+
+.more{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(162, 0, 255);
+    border: none;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.more:hover{
+    background-color: rgb(200, 79, 248);
+}
+
+.less{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(162, 0, 255);
+    border: none;
+    margin-left: 1rem;
+}
+.less:hover{
+    background-color: rgb(228, 79, 248);
+}
+
+.box-1{
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 1rem;
+}
+.box-2{
+    margin-left: 1.9rem;
+    padding: 1rem;
+   
+}
+
+.boxes{
+    display: flex;
+    
+}
+
+h3{
+    font-size: 24px;
+}
+.input-1{
+    display: flex;
+    align-items: center;
+}
+h1{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.input-1 {
+    position: relative;
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+    margin-right: -2rem;
+  }
+ 
+  .input-1 input {
+    padding-left: px;
+  }
+
+  .mensal{
+    font-size: 26px;
+  }
+  
+  h4{
+    font-size: 20px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .total{
+    font-size: 48px;
+    font-weight: 600;
+  }
+
+  .mes{
+    font-size: 42px;
+    font-weight: 600;
+  }
+  p{
+    font-size: 18px;
+    line-height: 1.8rem;
+    font-weight: 500;
+  }
+  .tittle{
+    text-align: center;
+  }
+
+  .MuiSlider-rail {
+    background-color: #c23232;
+  }
+  .MuiSlider-track {
+    background-color: #bbbbbd;
+  }
+  @media (max-width: 1000px)  {
+    .boxes{
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+    }
+    .box-1{
+      width: 95%;
+      margin: auto;
+    }
+    input{
+      font-size: 30px;
+    }
+    .mes{
+      font-size: 38px;
+    }
+    h3{
+     font-size: 22px;
+    }
+    .total{
+      font-size: 35px;
+      font-weight: 500;
+    }
+    .box-2{
+      margin: 0px;
+    }
+  }
